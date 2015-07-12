@@ -2,9 +2,12 @@
 import optparse
 import sys
 
-#Python script to track words from stream of tweets
+#Python script to track words from a stream of tweets
 
-
+'''
+this function takes a list of words as input and adds them to running dictionary counting instances of words
+seen as tweets come in.
+'''
 def addWords(tweet_dict, word_list):
     for word in word_list:
         if word in tweet_dict:

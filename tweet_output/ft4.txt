@@ -1,0 +1,4 @@
+#bigdata   1.0
+#smb       1.0
+#analytics 0.0
+#kdn       0.0
