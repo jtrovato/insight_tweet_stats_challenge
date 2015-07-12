@@ -8,6 +8,7 @@ import heapq
 '''
 This function uses a min heap and a max heap to keep track of the middle two or middle number in a set of incoming integers
 from these numbers the median can easily be found based on the number of elements in each heap
+Note: python heapq implements a minheap. To achieve a max heap I negated each number upon push and pop.
 '''
 def calcMedianHeaps(word_list, min_heap, max_heap):
     cur_num_words = len(set(word_list)) # use set to delete repeated words
@@ -32,9 +33,6 @@ def calcMedianHeaps(word_list, min_heap, max_heap):
     return median, min_heap, max_heap
     
 
-
-def calcMedian(word_list, unique_words):
-    cur_unique_words = len(unique(word_list))
 
 if __name__ == '__main__':
 
