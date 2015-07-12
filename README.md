@@ -1,13 +1,15 @@
 # insight_tweet_stats_challenge
-Author: Joe Trovato
+**Author:** Joe Trovato
 
-Date: July 2015
+**Date:** July 2015
 
-Usage: ./run.sh (in top level directory)
+**Usage:** ./run.sh (in top level directory)
 
-Input tweets: tweet_input/tweets.txt
+More specifically, each feature has its own python script that is run with the following command: python featurename.py input_filepath output_filepath. Sample input and output files are included in this repo.
 
-Output files: ft1.txt, ft2.txt, ft3.txt, ft4.txt (files correspond to the feature numbers described below)
+**Input tweets:** tweet_input/tweets.txt
+
+**Output files:** ft1.txt, ft2.txt, ft3.txt, ft4.txt (files correspond to the feature numbers described below)
 
 This challenge was completed as a part of Insight Data Engineering's coding challenge. The challenge consists of reading tweets from a text file and completing some basic statistics on the "stream" of tweets. The code contained in this repo was written to be scaled to much larger tweet inputs than the example, tweets.txt. For instance, tweets are parsed one at a time as oppossed to all at once to avoid memory issues when loading large datasets.
 
